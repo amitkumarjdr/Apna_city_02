@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.landmark_Scroll::-webkit-scrollbar {
+  width: 5px;
+  background:#E2E2E2;
+}
+
+.landmark_Scroll::-webkit-scrollbar-track {
+  width: 5px;
+  padding: 10px 0;
+}
+
+.landmark_Scroll::-webkit-scrollbar-thumb {
+  width: 5px;
+  border-radius: 10px;
+  background:#076280;
+
+}
+
+.button-55:active {
+  box-shadow: rgba(7, 98, 128, 0.705) 0 3px 5px inset;
+  outline: 0;
+}
+
+.button-55:not([disabled]):active {
+  box-shadow: rgba(7, 98, 128, 0.9) 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+.svgImg:hver{
+  fill: white;
+}
